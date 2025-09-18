@@ -1,0 +1,848 @@
+*{
+    
+}
+.img{
+    background-repeat: no-repeat;
+    
+    background-size: 100% 900px;
+}
+        /*--- nav var ---*/
+.n{
+    width:100%;
+    height: 90px;
+    background-color:aliceblue;
+    
+}
+
+.wix{
+   position: absolute;
+   top:40px;
+   left:50px;
+    font-size: 40px;
+    
+    color: black;
+}
+
+.creat li{
+    display: inline-block;
+    position: relative;
+    left:1250px;
+    top:20px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.edit{
+    background-color: rgb(36, 36, 209) ;
+    color: aliceblue;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.edit:hover{
+    background-color: rgb(60, 60, 243);
+}
+
+          /* ---;;;;;;;;;;;;;;;;;;;;;;;;--بداية الازرار--;;;;;;;;;;;;;;;;;;;;;;;;---*/
+.nav ul li{
+    display: inline;
+    margin-right:60px;
+    background-color: aliceblue;
+    padding: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+.nav ul li:hover{
+    background-color: rgba(12, 12, 12, 0.514);
+    color: aliceblue;
+}
+ 
+
+.nav ul {
+    position: absolute;
+    top: 140px;
+    left: 20px;
+}   
+
+ .m{
+    color: black;
+    position: relative;
+    left: 1500px;
+    bottom: 30px;
+    
+    font-size: 50px;
+ }
+  .bok{
+    color: white;
+    position: absolute;
+    left: 600px;
+    bottom: 60px;
+    top:-8px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+          /*---;;;;;;;;;;;;;;;;;;;;--كتابة اول صفحة في الجنب-;;;;;;;;;;;;;;;;;;;;;;;;---*/
+ .write1{
+    position: absolute;
+    top:330px;
+    left:100px;
+    color: aliceblue;
+    font-size: 27px;
+ }
+
+ .write2{
+    position: absolute;
+    top:390px;
+    left:100px;
+    color: aliceblue;
+    font-size: 27px;
+ }
+
+ .write3{
+    position: absolute;
+    top:500px;
+    left:100px;
+    color: aliceblue;
+    font-size: 20px;
+ }
+
+ .write4{
+    position: absolute;
+    top:530px;
+    left:100px;
+    color: aliceblue;
+    font-size: 20px;
+ }
+
+ .book{
+    background-color: aliceblue;
+    position: absolute;
+    top: 580px;
+    left:220px;
+    padding: 25px;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+ }
+
+ .book:hover{
+    background-color: rgba(0, 0, 0, 0.384);
+    color: aliceblue;
+ }
+
+       /*--;;;;;;;;;;;;;;;;;;;;- the fooooorm -;;;;;;;;;;;;;;;;;;;;;--*/
+
+       .parent{
+        background-color: rgb(245, 238, 173);
+        position: absolute;
+        top: 600px;
+        left: 1000px;
+        width: 780px;
+        height: 450px;
+        border-radius: 10px;
+        box-shadow: 10px;
+        padding: 20px;
+       }
+
+       .form{
+        margin: 15px;
+        text-align: center;
+        font-size: 30px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       }
+       .child{
+        text-align: center;
+           }
+
+          label {
+            display:inline;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        select {
+        width: 20%;
+        padding: 10px;
+        margin-bottom: 25px;
+        margin-right: 3px;
+        border: 1px color(srgb rgb(241, 16, 16) rgb(39, 241, 39) rgb(39, 39, 143)) ;
+        border-radius: 4px;
+}
+
+button{
+    position: absolute;
+    left: 350px;
+    padding: 20px;
+    background-color: #0e0d0d;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+button:hover{
+    background-color: rgb(247, 245, 243);
+    color: black;
+}
+
+/*--;;;;;;;;;;;;;;;;;;;;; staras ;;;;;;;;;;;;;;;;;;;;;*/
+
+p{
+    font-size: 40px;
+    position: absolute;
+    top:1150px;
+    left:40px;
+}
+
+.shiny{
+    position: relative;
+    top: 900px;
+    left: 80px;
+    
+    font-size: 40px;
+}
+
+.flex{
+    background-color: rgb(245, 238, 173);
+    width: 410px;
+    height: 350px;
+    position: absolute;
+    top: 1200px;
+    left: 60px;
+    
+}
+
+.stars{
+    position: absolute;
+    top: -20px;
+    
+}
+
+.head{
+    position: absolute;
+    top: 40px;
+}
+
+.body{
+    position: absolute;
+    top: 165px;
+    font-size: 25px;
+}
+
+.writer{
+    position: absolute;
+    top: 280px;
+    font-size: 22px;
+}
+
+.flex2{
+    background-color: rgb(245, 238, 173);
+    width: 410px;
+    height: 350px;
+    position: absolute;
+    top: 1200px;
+    left: 510px;
+}
+.flex3{
+    background-color: rgb(245, 238, 173);
+    width: 410px;
+    height: 350px;
+    position: absolute;
+    top: 1200px;
+    left: 960px;
+}
+.flex4{
+    background-color: rgb(245, 238, 173);
+    width: 410px;
+    height: 350px;
+    position: absolute;
+    top: 1200px;
+    left: 1410px;
+}
+    /*----;;;;;;;;;;;;;; 3 photos transition ;;;;;;;;;;;;;;;-*/
+.thphotos{
+    background-color: #4a5e5e;
+    width: 100%;
+    height: 1200PX;
+    position: absolute;
+    top: 1630px;
+    
+    
+}
+
+.for{
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    left: 670px;
+    top: 100px;
+}
+.our{
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    left: 805px;
+    top: 180px;
+}
+
+.radius{
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 1s ease-in-out;
+    
+}
+.radius:hover{
+    transform: scale(1.1);
+}
+
+.photo1{
+    position: absolute;
+    top: 1940px;
+    left: 90px;
+    width: 600px;
+    height: 400px;
+    
+}
+.photo2{
+    position: absolute;
+    top: 1940px;
+    left: 700px;
+    width: 600px;
+    height: 400px;
+    
+}
+.photo3{
+    position: absolute;
+    top: 1940px;
+    left: 1300px;
+    width: 600px;
+    height: 400px;
+    
+}
+
+.dry{
+    font-size: 40px;
+    position: absolute;
+    right: 140px;
+    bottom: -200px;
+    font-weight: 700;
+    color: rgb(19, 17, 17);
+}
+
+.button{
+    background-color:#fff ;
+    color: rgb(102, 101, 101);
+    position: absolute;
+    top: 2700px;
+    left: 870px;
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color:#4a5e5e ;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 2px;
+    color:aliceblue;
+}
+       /*;;;;;;;;;;;;;; بوكس الاعلانات ;;;;;;;;;;;;;;;*/
+.adv{
+    background-color:rgb(245, 238, 173) ;
+    width: 86%;
+    height: 220px;
+    position: absolute;
+    top: 2920px;
+    position: absolute;
+    left: 130px;
+}
+
+.featured{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    position: absolute;
+    left: 710px;
+    top: 40px;
+}
+
+.loreva{
+    position:absolute;
+    top:130px;
+    left: 1300px;
+}
+.volve{
+    position:absolute;
+    top:130px;
+    left: 1030px;
+}
+.gasp{
+    position:absolute;
+    top:130px;
+    left: 750px;
+}
+.stella{
+    position:absolute;
+    top:130px;
+    left: 450px; 
+}
+.latch{
+    position:absolute;
+    top:130px;
+    left: 200px;
+}
+          /* ;;;;;;;;;;;;; after and before ;;;;;;;;;;;;;;; */
+.after{
+    
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 3290px;
+}
+.before{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 810px;
+}
+.carpet{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left:870px ;
+    top:75px;
+}
+.phbefore{
+    position: absolute;
+    left: 460px;
+    top: 160px;
+    
+}
+.phafter{
+    position: absolute;
+    left: 960px;
+    top: 160px;
+}
+.rad{
+    border-radius: 20px;
+}
+.b{
+    position: absolute;
+    top: 480px;
+    left: 190px;
+    color: #0e0d0d;
+    font-size: 25px ;
+}
+.a{
+    position: absolute;
+    top: 480px;
+    left:220px;
+    font-size: 25px;
+
+}
+
+       /*;;;;;;;;;;;;;;;;;;;;;; icoooooon ;;;;;;;;;;;;;;;;;;;;*/
+.icon{
+    position: absolute;
+    top: 4030px;
+}
+.how{
+    position: absolute;
+    top: 70px;
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    left: 820px;
+
+}
+.arr{
+    filter: brightness(0.5);
+    opacity: 0.8;
+    
+}
+.ic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    opacity: 0.7;
+    position: relative;
+    left: 40px;
+}
+.p1{
+    width: 200px;
+    height: auto;
+    
+    position: absolute;
+    top: 200px;
+    left: 360px;
+}
+.pic1{
+    font-size: 20px;
+    color: #fff;
+}
+
+.p2{
+    width: 200px;
+    height: auto;
+    
+    position: absolute;
+    top: 200px;
+    left: 670px;
+}
+.pic2{
+    font-size: 20px;
+    color: #fff;
+}
+.p3{
+    width: 200px;
+    height: auto;
+    
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+}
+.pic3{
+    font-size: 20px;
+    color: #fff;
+}
+.p4{
+    width: 200px;
+    height: auto;
+    
+    position: absolute;
+    top: 200px;
+    left: 1300px;
+}
+.pic4{
+    font-size: 20px;
+    color: #fff;
+}
+
+/*;;;;;;;;;;;;;;;;;;;;; salary ;;;;;;;;;;;;;;;;;;;;*/
+
+.salary{
+ background-color: #4C5C5C;
+ width: 101%;
+ height: 800px;
+ position: relative;
+ top: 4200px;
+
+}
+ .wr1{
+    color: #fff;
+    position: absolute;
+    top: 220px;
+    left: 250px;
+    font-size: 25px;
+ }
+ .wr2{
+    color: #fff;
+    position: absolute;
+    top: 280px;
+    left: 250px;
+    font-size: 25px
+ }
+.wr3{
+    color: #fff;
+    position: absolute;
+    top: 400px;
+    left: 250px;
+    font-size: 20px;
+}
+.wr4{
+    color: #fff;
+    position: absolute;
+    top: 430px;
+    left: 250px;
+    font-size: 20px;
+}
+.wr5{
+    color: #fff;
+    position: absolute;
+    top: 460px;
+    left: 250px;
+    font-size: 20px;
+}
+.choose{
+    background-color: #fff;
+    color: #4C5C5C;
+    position: absolute;
+    top: 520px;
+    left: 250px;
+    padding: 22px;
+    border-radius: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.choose:hover{
+     background-color: #4C5C5C;
+     border-style: solid;
+    border-color: #fff;
+    border-width: 2px;
+    color:aliceblue;
+}
+.value{
+    background-color: rgb(245, 238, 173);
+    width: 400px;
+    height: 310px;
+    position: absolute;
+    left: 1100px;
+    top: 120px;
+    border-radius: 20px;
+}
+.best{
+    color: #fff;
+    background-color: #0e0d0d;
+    position: absolute;
+    top: -10px;
+    left: 158px;
+    padding: 2px;
+}
+.the{
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    top: 40px;
+    left: 90px;
+}
+.s{
+    font-size: 60px;
+    position: absolute;
+    top: 80px;
+    left: 135px;
+}
+.every{
+    font-size: 20px;
+    position: absolute;
+    top: 140px;
+    left: 140px;
+}
+.select{
+    background-color: #0e0d0d;
+    padding: 10px;
+    padding-left: 90px;
+    padding-right: 90px;
+    border-radius: 40px;
+    position: absolute;
+    top: 190px;
+    left: 80px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.select:hover{
+    background-color: rgb(245, 238, 173);
+    border-style: solid;
+   border-color: black;
+   border-width: 2px;
+   color:black;
+}
+.white{
+    background-color:#fff;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 1100px;
+    top: 390px;
+    border-radius: 20px;
+}
+.white .wh li{
+    margin: 30px;
+    font-size: 17px;
+}
+.white .wh{
+    position: absolute;
+    left: 90px;
+}
+
+/*;;;;;;;;;;;;;;;;;;;;;;;; why chosseeeeee ;;;;;;;;;;;;;;;;;;;;*/
+
+.why{
+    
+    position: absolute;
+    top: 5350px;
+    width: 100%;
+    height: 700px;
+}
+.rev{
+    font-size: 45px;
+    position: absolute;
+    left: 910px;
+    top: 140px;
+}
+.qua{
+    width: 250px;
+    height: 120px;
+    
+    position: absolute;
+    left: 940px;
+    top: 250px ;
+}
+.ss{
+    font-size: 27px;
+    background-color: rgb(245, 238, 173);
+    border-radius: 50%;
+    position: absolute;
+    left: -30px;
+    top: 0px;
+}
+.w1{
+    font-size: 30px;
+}
+.p11{
+    position: absolute;
+    top: 45px;
+}
+.same{
+    width: 290px;
+    height: 120px;
+    
+    position: absolute;
+    left: 1280px;
+    top: 250px ;
+}
+.out{
+    width: 290px;
+    height: 120px;
+    
+    position: absolute;
+    left: 940px;
+    top: 420px ;
+}
+.eco{
+    width: 290px;
+    height: 120px;
+    
+    position: absolute;
+    left: 1280px;
+    top: 420px ;
+}
+.but{
+    background-color: #0e0d0d;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 40px;
+    position: absolute;
+    top: 560px;
+    left: 920px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.but:hover{
+    background-color: white;
+    border-style: solid;
+   border-color: black;
+   border-width: 2px;
+   color:black;
+}
+.laau{
+  position: absolute;
+  top: 100px;
+  left: 140px;
+}
+.la{
+    width: 500px;
+    height: 550px; 
+}
+
+    /*;;;;;;;;;;;;;;; THE LAAAAAAAAAAAAST ;;;;;;;;;;;;;;;*/
+
+.lastimg{
+   position: absolute;
+   top: 830px;
+}   
+.thelast{
+    width: 100%;
+    height: 250px;
+    background-color:  rgb(245, 238, 173);
+    position: absolute;
+    top: 6800px;
+} 
+.clinic{
+    font-size: 25px;
+    position: absolute;
+    top: 40px;
+    left: 180px;
+}
+.bb{
+    background-color: #0e0d0d;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 40px;
+    position: absolute;
+    top: 150px;
+    left: 220px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.bb:hover{
+    background-color: rgb(245, 238, 173);
+    border-style: solid;
+   border-color: black;
+   border-width: 2px;
+   color:black;
+}
+.div1{
+    font-size: 16px;
+    position: absolute;
+    top: 40px;
+    left: 650px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.d1{
+    margin-bottom: 30px;
+}
+.d2{
+    margin-bottom: 8px;
+}
+.d3{
+    margin-bottom: 8px;
+}
+.d4{
+    margin-bottom: 8px;
+}
+.d5{
+    margin-bottom: 8px;
+}
+.d6{
+    margin-bottom: 8px;
+}
+.div2{
+    font-size: 16px;
+    position: absolute;
+    top: 40px;
+    left: 1020px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.div3{
+    font-size: 16px;
+    position: absolute;
+    top: 40px;
+    left: 1450px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.whi{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    position: absolute;
+    top: 251px;
+}
+.l{
+    font-size: 18px;
+    position: absolute;
+    top: 15px;
+    left: 780px;
+}
